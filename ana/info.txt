@@ -1,0 +1,59 @@
+
+1. manage vitadock
+- Login into https://test-cloud.vitadock.com
+	uid: geert.van.de.peer@ict-proof.be
+	pwd: Vitavita1!
+- Read more in https://github.com/Medisana/vitadock-api/wiki
+- Manage applications
+
+2. Test
+- Testclient in https://test-cloud.vitadock.com/webclient
+
+
+https://test-cloud.vitadock.com/signup
+
+https://github.com/karstenols/DotNetOpenAuth
+https://github.com/karstenols/DotNetOpenAuth.Samples
+https://github.com/karstenols/vitadock-api
+
+1. read this first
+
+
+2. Create a new application
+https://github.com/Medisana/vitadock-api/wiki/Creation-of-a-new-application
+https://test-cloud.vitadock.com/signin
+login
+webclient4
+- develop new application
+	name: test.telemonitoring.medisana
+	service: receive
+	company: Remedus
+	email: geert.van.de.peer@ict-proof.be
+	version: 0.0.0.1
+Applicatietoken:7oVrMuvl3a0yvbql2NicBNN8dJynVJeFT6mSFP8k8uqRWX24zW506PebFZ0GBZbN
+Applicatiesecret:30PsnWbR0hLeva9viEV8gypZ2YKGa96weKZ9W9FpZlD9x6epN3YgWE44s6up6L65
+
+
+REST API/
+https://github.com/Medisana/vitadock-api/wiki/AUTHORIZATION-Header
+
+
+?start={firstEntryNumber}&max={maxNumberOfReturnedElements}&date_since={from}
+
+
+https://test-cloud.vitadock.com/webclient/pages/createuser.jsf
+https://test-cloud.vitadock.com/webclient/pages/createuser.jsf
+
+https://test-cloud.vitadock.com/desiredaccessrights/request?oauth_token=jElE33F3jAZLJy5Fi6Xu4vaUGNTUYtdL9UYj6gzyB6165DAxYSXWE3oqeiFqV5nq
+
+
+response	Get device token and device secret 
+Get unauthorized access token and secret 
+Base Parameter String: oauth_consumer_key=SMC3b1h0dt9wEKl3wFrjMksfGbotMqhSD2Lo42TX8f9DEMj1GKYuwzAJkj4r0EZE&oauth_nonce=sfJYNf2Ff6z5FvyKcugZ22hwbm7oPUtILS3U&oauth_signature_method=HMAC-SHA256&oauth_timestamp=1470906082464&oauth_version=1.0 
+
+Base Signature String: POST&https%3A%2F%2Flocalhost%3A8079%2Fauth%2Funauthorizedaccesses&oauth_consumer_key%3DSMC3b1h0dt9wEKl3wFrjMksfGbotMqhSD2Lo42TX8f9DEMj1GKYuwzAJkj4r0EZE%26oauth_nonce%3DsfJYNf2Ff6z5FvyKcugZ22hwbm7oPUtILS3U%26oauth_signature_method%3DHMAC-SHA256%26oauth_timestamp%3D1470906082464%26oauth_version%3D1.0 
+
+Check verifier token 
+Base Parameter String: oauth_consumer_key=SMC3b1h0dt9wEKl3wFrjMksfGbotMqhSD2Lo42TX8f9DEMj1GKYuwzAJkj4r0EZE&oauth_nonce=jxsClpIOjrmxhR5MKnDdxVeOYGkTt9YletOx&oauth_signature_method=HMAC-SHA256&oauth_timestamp=1470906110058&oauth_token=jElE33F3jAZLJy5Fi6Xu4vaUGNTUYtdL9UYj6gzyB6165DAxYSXWE3oqeiFqV5nq&oauth_verifier=G0K19jSs&oauth_version=1.0 
+
+Base Signature String: POST&https%3A%2F%2Flocalhost%3A8079%2Fauth%2Faccesses%2Fverify&oauth_consumer_key%3DSMC3b1h0dt9wEKl3wFrjMksfGbotMqhSD2Lo42TX8f9DEMj1GKYuwzAJkj4r0EZE%26oauth_nonce%3DjxsClpIOjrmxhR5MKnDdxVeOYGkTt9YletOx%26oauth_signature_method%3DHMAC-SHA256%26oauth_timestamp%3D1470906110058%26oauth_token%3DjElE33F3jAZLJy5Fi6Xu4vaUGNTUYtdL9UYj6gzyB6165DAxYSXWE3oqeiFqV5nq%26oauth_verifier%3DG0K19jSs%26oauth_version%3D1.0 
