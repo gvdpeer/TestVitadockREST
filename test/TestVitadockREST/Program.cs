@@ -125,7 +125,6 @@ namespace TestVitaDockREST
             //webapi call
             var headers = new Dictionary<string, string>();
             headers["Authorization"] = authorization;
-            var parameters = new Dictionary<string, object>();
             var result = Get(url, "?date_since=0", headers).Result;
             return result;
         }
